@@ -1,0 +1,82 @@
+header{
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-color: rgba(86, 193, 235, 0.452);
+    border-bottom-right-radius: 15pc;
+    opacity: 0.8;
+}
+.background{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    opacity: 0.5;
+  }
+.first{font-style: oblique;
+       color: rgb(0, 0, 0);
+       margin: auto;
+       width: 50%;
+       border: 5px;
+       padding: 10px;
+}
+.second{background-color: rgba(137, 214, 13, 0.89);}
+body{
+    margin-right: auto;
+    margin-top: auto;
+    margin-left: auto;
+}
+
+p{
+    color: rgb(0, 0, 0);
+}
+summary{color: rgb(14, 15, 9); position: right; background-position: 50pc, 40px;}
+ul{color: rgb(16, 20, 10); background-color: yellowgreen; border-top-right-radius: 10pc;}
+ol{color: rgb(11, 17, 10);}
+
+
+[title]{
+    cursor: help;
+    padding-bottom: 3px;
+    border-bottom: 2px dotted blue;
+    text-decoration: none;
+}
+a:link{
+    text-decoration: underline;
+    color: gold;
+}
+a:visited{
+    text-decoration: underline;
+    color: rgb(240, 192, 71);
+}
+a:hover{
+    text-decoration: underline;
+    color: lawngreen;
+}
+a:active{
+    background-color: mediumaquamarine;
+}
+/* 
+        h1{font-size:24pt;
+            font-display: 12;}
+        h2{
+            font-size: 10pt;
+            font-weight: bold;
+            color: rgb(0, 0, 0);
+            font-style: italic;
+            background-color: rgb(233, 144, 233);
+            border-top-right-radius: 60pc;
+        }
+        body{background-color: rgb(20, 220, 193);
+    
+            border-bottom: silver;    }
+        header{background-color: rgb(255, 255, 255);
+                border-color: rgb(249, 249, 250);
+                border-width: thick;
+                border-radius: 10;}
+        summary{background-position: 50in;
+                background-color: rgb(141, 141, 141);
+                }
+                ul{background-attachment: fixed;
+                    background-color: grey;} */
+        

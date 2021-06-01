@@ -1,0 +1,13 @@
+.form{
+    background-color: rgba(212, 96, 96, 0.918);
+    /* padding-left: 400px;
+    padding-right: 150px; */
+    margin-left: 400px;
+    margin-right: 150px;
+    margin-top: 200px;
+}
+fieldset{
+    grid-template: auto;
+    padding-top: 10px;
+    padding-bottom: 150px;
+}
