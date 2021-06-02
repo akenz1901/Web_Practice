@@ -1,0 +1,14 @@
+.top{
+    font-size: 20px;
+    background-color: crimson;
+    color: rgb(224, 223, 223);
+    padding-left: 450px;
+    margin-inline-start: -7.5px;
+    margin-inline-end: -7.5px;
+}
+.toph{
+    padding-left: 200px;
+}
+head{
+    background-color: crimson;
+}
