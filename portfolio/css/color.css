@@ -1,14 +1,51 @@
 .top{
     font-size: 20px;
     background-color: crimson;
-    color: rgb(224, 223, 223);
+    background: linear-gradient();
+    color: rgb(240, 233, 233);
     padding-left: 450px;
-    margin-inline-start: -7.5px;
-    margin-inline-end: -7.5px;
+    margin-bottom: -27px;
+    margin-top: -27px;
+    margin-left: -8px;
+    margin-right: -8px;
 }
-.toph{
-    padding-left: 200px;
+.all_flex{
+    margin-bottom: -50px;
+    background-color: rgb(27, 27, 27);
+    color: blanchedalmond;
+    font-stretch: extra-expanded;
 }
-head{
-    background-color: crimson;
+
+.writeup{
+    margin-top: 50px;
+    margin-right: 100px;
+}
+
+.summary{
+    padding-right: 80px;
+    margin-right: 600px;
+    margin-left: 30px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    background-blend-mode: overlay;
+    background-color: rgb(116, 111, 103);
+}
+.image{
+    display: flex;
+    padding-left: 900px;
+    margin-top: -400px;
+}
+.for{
+    padding-left: 135px;
+    color: rgba(207, 204, 204, 0.904);
+    font-size: 25px;
+}
+.skills{
+    background-color: rgb(88, 84, 84);
+    margin-right: 700px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.sub-summary{
+    padding-left: 70px;
 }
