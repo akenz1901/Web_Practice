@@ -1,6 +1,6 @@
 .top{
     font-size: 20px;
-    background-color: crimson;
+    background-color: rgba(139, 39, 59, 0.945);
     background: linear-gradient();
     color: rgb(240, 233, 233);
     padding-left: 450px;
@@ -11,9 +11,11 @@
 }
 .all_flex{
     margin-bottom: -50px;
-    background-color: rgb(27, 27, 27);
+    background-image:linear-gradient(to bottom,rgba(88, 88, 71, 0.5), rgba(250, 222, 65, 0.432)), url("/first_page/img/paint.jpg");
     color: blanchedalmond;
     font-stretch: extra-expanded;
+    background-repeat: no-repeat;
+    background-size: 1410px;
 }
 
 .writeup{
@@ -27,13 +29,16 @@
     margin-left: 30px;
     padding-top: 70px;
     padding-bottom: 50px;
-    background-blend-mode: overlay;
-    background-color: rgb(116, 111, 103);
 }
 .image{
     display: flex;
-    padding-left: 900px;
-    margin-top: -400px;
+    padding-left: 800px;
+    margin-top: -645px;
+    padding-bottom: 30px;
+}
+.img{
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
 }
 .for{
     padding-left: 135px;
@@ -41,11 +46,55 @@
     font-size: 25px;
 }
 .skills{
-    background-color: rgb(88, 84, 84);
-    margin-right: 700px;
-    margin-top: 10px;
+    margin-top: 40px;
     padding-left: 10px;
+    font-size: 40px;
+    font-family: cursive;
+    background-color: rgba(145, 137, 112, 0.308);
+    color: rgba(245, 222, 179, 0.418);
 }
 .sub-summary{
-    padding-left: 70px;
+    padding-left: 20px;
+    background-color: rgba(96, 96, 99, 0.356);
+    margin-left: 90px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 1.5vmax;
+    fill-opacity: unset;
+    font-style: italic;
+}
+
+.javascript{
+    padding-left: 300px;
+}
+.python{
+    padding-left: 350px;
+}
+.secondSkills{
+    margin-top: 40px;
+    padding-left: 20px;
+}
+.mss{
+    padding-left: 350px;
+}
+.html_css{
+    padding-left: 300px;
+}
+.firstSkills{
+    padding-left: 20px;
+}
+summary{
+    padding-left: 600px;
+}
+.contact{
+    padding-left: 450px;
+}
+.sub_contact{
+    padding-left: 150px;
+}
+small{
+    padding-left: 500px;
+}
+.mainContact{
+    background-color: rgba(83, 72, 72, 0.363);
 }
