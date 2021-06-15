@@ -1,0 +1,36 @@
+
+#main{
+    display: flex;
+    padding-left: 30px;
+    flex-direction: column;
+    background-color: rgba(233, 224, 224, 0.87);
+    margin-top: -23px;
+    margin-left: -40px;
+    margin-right: 400px;
+}
+header{
+    background-color: black;
+    color: blanchedalmond;
+    padding-top: 30px;
+}
+aside{
+    float: right;
+    background-image: url("/first_page/img/lovely_planet.jpg");
+    margin-top: -520px;
+    padding-bottom: 600px;
+}
+nav{
+    background-color: rgba(86, 86, 172, 0.377);
+    float: left;
+    padding-right: 105px;
+    margin-top: -23px;
+}
+.main_paragraph{
+    margin-top: -10px;
+}
+#check{
+    padding-left: 285px;
+}
+#second_div_in_aside{
+    padding-left: 285px;
+}
