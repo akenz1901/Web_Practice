@@ -1,0 +1,15 @@
+.main-div{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    
+}
+.sub_div{
+    background-color: indigo;
+}
+.last_sub_div{
+    background-color:yellow;
+}
+.second_div{
+    background-color: turquoise;
+}
