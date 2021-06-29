@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script>
+    document.write('here in the head');
+    document.write('<meta charset="UTF-8">');
+    document.write('<link href=styles.css>');
+
+</script>
+</head>
+<body>
+    <script>
+        document.write("<p>in the body</p>");
+        document.write("<h2>Enter Time: </h2>");
+        var input = document.write("<input type=Pls Enter Hour>");
+        var hourOfDay = input;
+
+        if(hourOfDay >=12 && hourOfDay < 4)
+            document.write("<h1>Good afternoon</h1>");
+        else if(hourOfDay < 12 && hourOfDay < 18)
+            document.write("<h1>Good Morning</h1>");
+        else
+            document.write("<h1>Good Evening</h1>");
+        
+        
+        var sum = 0;
+        var hon = prompt("Enter A number:", 0);
+        while (hon > 0) {
+            num = parseInt(hon);
+            sum = sum + num;
+            hon = prompt("Enter A number:");
+        }
+        document.write(sum);
+
+    </script>
+    <script>
+        var cohort = prompt("Enter Cohort: ");
+
+        switch(cohort){
+            case "C7":
+                document.write("SAGEs");
+                break;
+            case "C6":
+                document.write("MAVENs");
+                break;
+            case "C5":
+                document.write("PENTALS");
+                break;
+            default:
+                document.write("Ancestors");
+        }
+    </script>
+
+    <script>
+        let num = parseInt(prompt("Enter A Number: "))
+        var sum = 0;
+        
+        var count;
+        for(count = 0;count < num; count++) {
+            sum+=count;
+        }
+        document.write(sum);
+    </script>
+</body>
+</html>
