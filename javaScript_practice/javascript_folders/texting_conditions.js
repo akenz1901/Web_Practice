@@ -80,25 +80,66 @@
 
 // console.log(sumDoubleNumbers(take, secondTake));
 
-function detectNegative(firstNumber, secondNumber){
+// function detectNegative(firstNumber, secondNumber){
 
-    var itSNegative = firstNumber < 0 || secondNumber < 0;
+//     var itSNegative = firstNumber < 0 || secondNumber < 0;
 
-    if(itSNegative){
-        console.log("Oops we got Negative");
-        return true;
+//     if(itSNegative){
+//         console.log("Oops we got Negative");
+//         return true;
+//     }
+//     else
+//         console.log("Great No Negative");
+//         return false;
+// }
+
+// let take = parseInt(prompt("Enter Number: "))
+// let secondTake = parseInt(prompt("Enter Number: "));
+
+// console.log(detectNegative(take, secondTake));
+
+// function calculateAngleOfScalene(base, height){
+//     if(base <=4 && height < 5)
+//         var area = base * height / 2;
+//         if(area <=6)
+//             return area;
+//     else 
+//         return -1;
+// }
+
+// let take = parseInt(prompt("Enter Number: "))
+// let secondTake = parseInt(prompt("Enter Number: "));
+
+// console.log(calculateAngleOfScalene(take, secondTake));
+
+
+// function arrayFuction() {
+//     count = 1;
+//     var number;
+//     var numbers = [];
+//     while(count <= 5){
+//         number = parseInt(prompt("Enter Number: "));
+//         numbers[count] = number;
+//         count++;
+//     }
+//     return numbers;    
+// }
+
+// console.log(arrayFuction());
+
+function addSubchargeTotal(charge, charge2){
+    
+    var subCharge = 0;
+
+    if(charge <= 10 || charge2 <= 10){
+        subCharge++;
     }
-    else
-        console.log("Great No Negative");
-        return false;
+    else if(charge > 10 || charge2 > 10){
+        subCharge+=2;
+    }
+    return subCharge + charge + charge2;
 }
 
-let take = parseInt(prompt("Enter Number: "))
+let take = parseInt(prompt("Enter Number: "));
 let secondTake = parseInt(prompt("Enter Number: "));
-
-console.log(detectNegative(take, secondTake));
-
-function calculateAngleOfScalene(base, height){
-        var area = base * height / 2;
-        return area;
-}
+console.log(addSubchargeTotal(take, secondTake));
