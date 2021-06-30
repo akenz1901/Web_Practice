@@ -127,19 +127,45 @@
 
 // console.log(arrayFuction());
 
-function addSubchargeTotal(charge, charge2){
+// function addSubchargeTotal(charge, charge2){
     
-    var subCharge = 0;
+//     var subCharge = 0;
 
-    if(charge <= 10 || charge2 <= 10){
-        subCharge++;
-    }
-    else if(charge > 10 || charge2 > 10){
-        subCharge+=2;
-    }
-    return subCharge + charge + charge2;
+//     if(charge <= 10 || charge2 <= 10){
+//         subCharge++;
+//     }
+//     else if(charge > 10 || charge2 > 10){
+//         subCharge+=2;
+//     }
+//     return subCharge + charge + charge2;
+// }
+
+// let take = parseInt(prompt("Enter Number: "));
+// let secondTake = parseInt(prompt("Enter Number: "));
+// console.log(addSubchargeTotal(take, secondTake));
+
+// function rotate(array){
+//     tempArray = [];
+//     count = 0;
+//     for (let index = array.length; index > 0; index--) {
+
+//         tempArray[count] = array[index];
+//         count++;
+//     }
+//     return tempArray;
+// }
+
+// arrayOfAnything = [2, 4, 5, 6];
+
+// console.log(arrayOfAnything);
+
+function calculateScaleneTriangle(length, secondLenght, thirdLenght){
+    var height = 0.5 * (length + secondLenght + thirdLenght);
+    var subtraction = height * (
+        height - length) * (height - secondLenght) * (height - thirdLenght);
+
+    return area = Math.sqrt(subtraction);
+
 }
 
-let take = parseInt(prompt("Enter Number: "));
-let secondTake = parseInt(prompt("Enter Number: "));
-console.log(addSubchargeTotal(take, secondTake));
+console.log(calculateScaleneTriangle(5, 6, 7));
