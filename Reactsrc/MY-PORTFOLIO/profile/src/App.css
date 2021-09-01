@@ -23,4 +23,8 @@
 .App-link {
   color: #61dafb;
 }
-
+.about{
+  width: 11cm;
+  padding: 20px 40px 20px 0px;
+  height: 5cm;
+}

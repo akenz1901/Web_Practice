@@ -7,10 +7,11 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Header />
+        <div className="about">
+          <Personality />
+        </div>
       </header>
-      <body className="personal">
-        <Personality />
-      </body>
+      
     </div>
   );
 }
