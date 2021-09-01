@@ -1,4 +1,12 @@
 .main{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:cursive;
     position:initial;
+    text-align: left;
+}
+#top-about{
+    color:#B0FBBC;
+
+}
+#write-up{
+    font-size: small;
 }
