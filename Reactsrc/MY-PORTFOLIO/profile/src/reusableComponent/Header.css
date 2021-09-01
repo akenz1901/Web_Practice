@@ -1,33 +1,32 @@
 .top-header{
     display: flex;
-    font-size: medium;
+    font-size: small;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    font-stretch: expanded;
 }
 .link{
     float: right;
-    padding-left: 7cm;
+    padding-left: 4cm;
 }
-#at{
-    margin: 0.5cm;
-}
-#sn{
-    margin: 0.5cm;
-}
-#ab{
-    margin: 0.5cm;
-}
-#co{
-    margin: 0.5cm;
-}
-#icon{
-    margin: 0.5cm;
-}
-.btn{
+#at{margin: 0.5cm;}
+#sn{margin: 0.5cm;}
+#ab{margin: 0.5cm;}
+#co{margin: 0.5cm;}
+#icon{margin: 0.1cm;}
+#btn{
     border-style: solid;
     height: 0.9cm;
     border-radius: 0.1cm;
     background-color:#282c34;
     color: white;
 }
+a:before{
+    color: white;
+}
+a:current{
+    color: white;
+}
+
 /* #user{
 } */
