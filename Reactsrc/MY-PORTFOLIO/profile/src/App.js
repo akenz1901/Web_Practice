@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './reusableComponent/Header'
 import Personality from "./Personality";
+import Headlines from './Headlines';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <Header />
         <div className="about">
           <Personality />
+          <Headlines/>
         </div>
       </header>
       
