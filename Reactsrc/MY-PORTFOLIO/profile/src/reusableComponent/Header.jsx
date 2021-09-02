@@ -16,7 +16,7 @@ const Header = () => {
                 <a id='at' href="">Article</a>
                 <a id='sn' href="">Snippets</a>
                 <a id='ab' href="">About</a>
-                <a id='co' href=""> <Button Button = "Contact" height="0.9cm" color="white" backgroundColor="#282c34" borderRadius="0.1cm" borderStyle="solid"/></a>
+                <Button id='co' href="" Button = "Contact" height="0.9cm" color="white" backgroundColor="#282c34" borderRadius="0.1cm" borderStyle="solid"/>
             </div>
         </div>
     );
